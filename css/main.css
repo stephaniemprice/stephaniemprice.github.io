@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Metamorphous');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+/* Body work */
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Calligraffitti', sans-serif;
+}
