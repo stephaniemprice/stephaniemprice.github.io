@@ -1,9 +1,159 @@
-@import url('https://fonts.googleapis.com/css?family=Metamorphous');
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+/* make sure to test website using different screen resolutions using http://quirktools.com/screenfly/ when done 
+future project: get an image on the navigation bar
+<!-- the margin attributes in style position the image so that it is overlapping navbar and main -->
+<img src="C:/Users/Steph/Pictures/emoji.png" alt="headertext" style="float:left;width:100px;height:100px;margin-left:0px;margin-top:-10px;margin-bottom:0px;z-index:100;border-radius:30px;">
+<img src="C:/Users/Steph/Pictures/Fish Ditch Busy Highway with BK Hat and Life Jacket.jpg">
 
-/* Body work */
+http://www.hazelwestsherring.co.uk/
+http://www.artchitecture.co.uk/about.html
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Rosario');
+
+
 body {
-	background-color: #000;
-	color: #fff;
-	font-family: 'Calligraffitti', sans-serif;
+    margin:0;
+	padding:0;
+	height:100%;
+	background: url('C:/Users/Steph/Downloads/sfondo5.png');
+	text-align: center;
+	font-family: 'Overlock', Verdana;
+}
+
+.wrapper {
+	position: relative;
+	min-height:100%;
+}
+/* this is the center box where my text appears. */
+
+.main {
+	background: #f8f8f8;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+	width: 800px;
+	text-align: left;
+}
+
+/* navbar */
+
+/* margins move the header to the very top of the page */
+#navbar {
+	background: rgba(110,210,202, 1);
+	border: 1px solid #080F0D;
+	margin-top: -50px;
+	padding-right: 15px;
+	/* necessary to have navbar just above topbar */
+	display: block;
+	width: 100%;
+	text-align: right;
+	position: fixed;
+	color: #545454;
+	font-family: 'Rosario', Verdana;
+	z-index: 100;
+}
+
+#navbar ul li {
+
+	/* makes text run horizontally */
+	display: inline-block;
+	font-family: 'Rosario', Verdana;
+	font-size: 20px;
+	padding: 0px;
+	margin-bottom: -550px;
+    margin-right: 20px;
+	font-weight: 100;
+	padding-right: 7px;
+
+}
+
+#navbar ul li:hover {
+	font-weight: 900;
+}
+
+#navbar a {
+	color: #545454;
+	text-decoration: none;
+}
+
+/* footer */
+.foot {
+	font-family: 'Overlock', Verdana;
+	font-size: 14px;
+	text-decoration: underline;
+	background: #fff;
+	bottom: 0px;
+}
+
+/* settings for headers */
+/* used for main welcome message */
+h1 {
+	font-family: 'Rosario', Verdana;
+	font-size: 40px;
+	font-weight: 900;
+	text-align: center;
+	color: #545454;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: #545454;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: 'Rosario', Verdana;
+}
+
+
+/* used for images to float on the right */
+h3 {
+	margin-left: 15px;
+	float: right;
+	border: 1px solid #000;
+}
+
+/* used for images to float on the left */
+h4 {
+	margin-right: 15px;
+	float: left;
+	border: 1px solid #000;
+}
+
+/* used for text underneath h2 */
+h5 {
+	font-size: 20px;
+	color: #545454;
+	padding: 0px;
+	margin: 0px;
+}
+
+hr {
+	border-color: rgba(110, 210, 202, .6);
+}
+
+ul, li {
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	padding-top: 0px;
+}
+
+a:visited, a {
+	color: rgba(54, 176, 165, 1);
+}
+
+a:hover {
+	color: rgba(54, 176, 165, 1);
+	font-weight: 900;
 }
