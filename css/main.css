@@ -1,13 +1,3 @@
-/* make sure to test website using different screen resolutions using http://quirktools.com/screenfly/ when done 
-future project: get an image on the navigation bar
-<!-- the margin attributes in style position the image so that it is overlapping navbar and main -->
-<img src="C:/Users/Steph/Pictures/emoji.png" alt="headertext" style="float:left;width:100px;height:100px;margin-left:0px;margin-top:-10px;margin-bottom:0px;z-index:100;border-radius:30px;">
-<img src="C:/Users/Steph/Pictures/Fish Ditch Busy Highway with BK Hat and Life Jacket.jpg">
-
-http://www.hazelwestsherring.co.uk/
-http://www.artchitecture.co.uk/about.html
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Overlock');
 @import url('https://fonts.googleapis.com/css?family=Rosario');
 
